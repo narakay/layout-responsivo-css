@@ -1,0 +1,52 @@
+.coluna
+{
+    border: 1px solid black;
+    background-color: black;
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: white;
+    
+}
+.coluna
+{
+    width: 90%;
+    height: 15; 
+    margin: 5%;
+}
+
+.titulo
+{
+    float: right;
+    background-color: white;
+    color: black;
+}
+
+/* Quando for maior que 980 pixels, executa a regra abaixo */
+@media (min-width: 980px)
+{
+    .coluna
+    {
+        float: left;
+        width: 20%;
+        margin: 6.5%;
+        background-color: green;
+    }
+
+} 
+
+/* Quando for maior que 760 pixels e menor que 975 pixels, executa a regra abaixo */
+@media (min-width: 760px) and (max-width: 985px)
+{
+    .coluna
+    {
+        float: left;
+        width: 60%;
+        margin: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: palevioletred;
+    }
+}
